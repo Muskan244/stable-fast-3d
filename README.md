@@ -24,6 +24,40 @@ Stable Fast 3D is based on [TripoSR](https://github.com/VAST-AI-Research/TripoSR
 
 ## Getting Started
 
+### 🔧 Installation with One-Click Installer
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Muskan244/stable-fast-3d.git
+
+2. **Navigate to the Project Folder**
+
+   ```bash
+   cd stable-fast-3d
+   ```
+
+3. **Run the One-Click Installer**
+
+   * **On macOS/Linux**:
+
+     ```bash
+     ./one_click_installer.sh
+     ```
+
+   * **On Windows (Command Prompt or PowerShell)**:
+
+     ```cmd
+     one_click_installer.bat
+     ```
+
+   The installer will:
+
+   * Create and activate a virtual environment.
+   * Install all required dependencies (offline).
+   * Prompt for your Hugging Face token.
+   * Log you in and set up the model environment.
+   * Make sure everything is ready to run locally — even offline.
+
 ### Installation
 
 Ensure your environment is:
